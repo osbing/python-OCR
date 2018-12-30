@@ -1,8 +1,6 @@
-# -*- coding: UTF-8 -*-
-from aip import AipOcr  
 import os
 import sys
-import cv2
+from aip import AipOcr
 
 APP_ID = 'xxxxx'  
 API_KEY = 'xxxx'  
