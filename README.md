@@ -1,7 +1,7 @@
 # python-OCR
 OCR 调用百度文字识别API进行OCR文字识别
 ## filename: OCRforbaiduapi.py
-##用途：批量图片文字识别 *.jpg
+## 用途：批量图片文字识别 *.jpg
 ***** 在需要识别的文件路径下执行 *****
  
 - [百度文字识别](http://ai.baidu.com/tech/ocr)
