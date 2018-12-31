@@ -7,7 +7,8 @@ filename: OCRforbaiduapi.py
 用途：批量图片文字识别 *.jpg
 
 ***** 在需要识别的文件路径下执行 *****
- 
+把程序放入单独文件夹中，下面只要把想识别的图片全部放入该文件夹下，运行程序即可批量识别并打印所有图片中的文字。
+
 百度文字识别 http://ai.baidu.com/tech/ocr
 API https://console.bce.baidu.com/ai/?fromai=1#/ai/ocr/app/detail~appId=734442
 错误码 http://ai.baidu.com/docs#/OCR-Python-SDK/78293940
