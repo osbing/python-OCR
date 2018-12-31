@@ -4,12 +4,15 @@ OCR 调用百度文字识别API进行OCR文字识别
 ##用途：批量图片文字识别 *.jpg
 ***** 在需要识别的文件路径下执行 *****
  
-[百度文字识别](http://ai.baidu.com/tech/ocr)
-[API](https://console.bce.baidu.com/ai/?fromai=1#/ai/ocr/app/detail~appId=734442)
-[错误码](http://ai.baidu.com/docs#/OCR-Python-SDK/78293940)
-关注公众号“百度OCR文字识别”（同时能及时获取接口升级等信息）
-百度AI社区--文字识别官方版块：http://ai.baidu.com/forum/topic/list/164
-具有免费调用额度的接口，超过每天的免费额度后会返回错误码：17，错误信息：Open api daily request limit reached（每天流量超限额）；
+- [百度文字识别](http://ai.baidu.com/tech/ocr)
+
+- [API](https://console.bce.baidu.com/ai/?fromai=1#/ai/ocr/app/detail~appId=734442)
+
+- [错误码](http://ai.baidu.com/docs#/OCR-Python-SDK/78293940)
+
+> 关注公众号“百度OCR文字识别”（同时能及时获取接口升级等信息）
+> 百度AI社区--文字识别官方版块：http://ai.baidu.com/forum/topic/list/164
+> 具有免费调用额度的接口，超过每天的免费额度后会返回错误码：17，错误信息：Open api daily request limit reached（每天流量超限额）；
 
 所有图片均需要base64编码、去掉编码头后再进行urlencode。
 请注意：上传的图片使用JPG格式可以一定程度上提高识别准确率！
